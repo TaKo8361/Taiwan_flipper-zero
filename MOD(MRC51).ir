@@ -1,0 +1,50 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On~off
+type: parsed
+protocol: NECext
+address: BE BE 00 00
+command: 70 8F 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: BE BE 00 00
+command: 77 88 00 00
+# 
+name: TV
+type: parsed
+protocol: NECext
+address: BE BE 00 00
+command: 2F D0 00 00
+# 
+name: Ch+
+type: parsed
+protocol: NECext
+address: BE BE 00 00
+command: 34 CB 00 00
+# 
+name: Ch-
+type: parsed
+protocol: NECext
+address: BE BE 00 00
+command: 35 CA 00 00
+# 
+name: Vol(Mute)
+type: parsed
+protocol: NECext
+address: BE BE 00 00
+command: 63 9C 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: BE BE 00 00
+command: 36 C9 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: BE BE 00 00
+command: 37 C8 00 00

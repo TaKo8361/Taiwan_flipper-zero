@@ -48,3 +48,5 @@ type: parsed
 protocol: NECext
 address: BE BE 00 00
 command: 37 C8 00 00
+
+#MRC51與MRC53-C通用
